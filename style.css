@@ -12,29 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #0F1626;
-}
-
-body::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(#e91e63, #ffc107);
-    clip-path: circle(22% at 30% 20%);
-}
-
-body::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(#ffffff, #da00ff);
-    clip-path: circle(20% at 70% 90%);
+    background: radial-gradient(rgb(95, 95, 95), rgb(0, 0, 0))
 }
 
 .container {
@@ -90,7 +68,7 @@ body::after {
 }
 
 .container .calculadora span:active {
-    background: #14ff47;
+    background: #ff533d;
     color: #192f00;
     font-size: 24px;
     font-weight: 500;
