@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: radial-gradient(rgb(95, 95, 95), rgb(0, 0, 0))
+    background-image: url(./img/peakpx.png);
 }
 
 .container {
@@ -21,10 +21,10 @@ body {
     border-radius: 6px;
     overflow: hidden;
     z-index: 10;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(30px);
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-left: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.63);
 }
 
 .container .calculadora {
@@ -43,8 +43,8 @@ body {
     font-size: 30px;
     background: transparent;
     color: #fff;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    border-right: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.308);
+    border-right: 1px solid rgba(255, 255, 255, 0.308);
 }
 
 .container .calculadora span {
@@ -57,8 +57,8 @@ body {
     cursor: pointer;
     font-size: 20px;
     user-select: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    border-right: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.308);
+    border-right: 1px solid rgba(255, 255, 255, 0.308);
     transition: 0.5s;
 }
 
